@@ -1,0 +1,4 @@
+﻿  Oblig2B.cpp
+C:\4. semester\Matte III\ObligTwo\MathThreeObligTwo\Oblig2B\Oblig2B\Oblig2B.cpp(42,88): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\4. semester\Matte III\ObligTwo\MathThreeObligTwo\Oblig2B\Oblig2B\Oblig2B.cpp(144,53): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  Oblig2B.vcxproj -> C:\4. semester\Matte III\ObligTwo\MathThreeObligTwo\Oblig2B\x64\Debug\Oblig2B.exe

@@ -1,5 +1,8 @@
 ﻿  Oblig2.cpp
-C:\4. semester\Matte III\oblig 2\Oblig2\Oblig2\Oblig2.cpp(41,68): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-C:\4. semester\Matte III\oblig 2\Oblig2\Oblig2\Oblig2.cpp(77,26): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
-C:\4. semester\Matte III\oblig 2\Oblig2\Oblig2\Oblig2.cpp(147,53): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
-  Oblig2.vcxproj -> C:\4. semester\Matte III\oblig 2\Oblig2\x64\Debug\Oblig2.exe
+C:\4. semester\Matte III\ObligTwo\MathThreeObligTwo\Oblig2\Oblig2\Oblig2.cpp(41,68): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\4. semester\Matte III\ObligTwo\MathThreeObligTwo\Oblig2\Oblig2\Oblig2.cpp(77,26): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+C:\4. semester\Matte III\ObligTwo\MathThreeObligTwo\Oblig2\Oblig2\Oblig2.cpp(143,53): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  glad.c
+x64\Debug\glm.obj : warning LNK4042: object specified more than once; extras ignored
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Oblig2.vcxproj -> C:\4. semester\Matte III\ObligTwo\MathThreeObligTwo\Oblig2\x64\Debug\Oblig2.exe

@@ -37,6 +37,11 @@ struct Vertex {
     float x, y, z, r, g, b, u, v;
 };
 
+
+float function(float x) {
+    return ((5.0 / 27.0 * pow(x, 3)) + (-42.0 / 27.0 * pow(x, 2)) + (123.0 / 27.0 * x) + (-59.0 / 27.0));
+}
+
 int main()
 {
     glfwInit();
@@ -65,6 +70,14 @@ int main()
     glGenBuffers(1, &VBO);
 
     glBindVertexArray(VAO);
+
+    vector< Vertex >vertices;
+    for (float i = -5; i < 10; i++)
+    {
+        vertices.push_back(Vertex{ i / 10,function(i) / 10,0, 1, 1, 0 });
+       
+
+    }
 
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
     glBufferData(GL_ARRAY_BUFFER, vertices.size() * sizeof(Vertex), vertices.data(), GL_STATIC_DRAW);
@@ -134,8 +147,6 @@ int main()
         glfwSwapBuffers(window);
         glfwPollEvents();
     }
-
-
 
     glDeleteVertexArrays(1, &VAO);
     glDeleteBuffers(1, &VBO);
